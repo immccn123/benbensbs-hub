@@ -28,7 +28,7 @@
 
 	async function getRandomBenbens(): Promise<Ccb.HandledBenben[]> {
 		const res = await fetch(
-			"https://api-benben.imken.dev/hub/ccb/getRandom",
+			"https://core.benben.sbs/hub/ccb/getRandom",
 		);
 
 		const json = await res.json();
